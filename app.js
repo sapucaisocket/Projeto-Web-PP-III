@@ -3,7 +3,7 @@ const app = express();
 const admin = require("./routes/admin")
 
 //Rotas:
-app.use('/', admin)git add 
+app.use('/', admin)
 
 //Porta do local host do projeto
 app.listen(8081, function() {
