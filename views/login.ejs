@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <form method="post" action="/fazLogin">
+        <label for="usuario">Nome de usuário:</label><br>
+        <input type="text" id="usuario" name="usuario"><br>
+        <label for="senha">Senha:</label><br>
+        <input type="password" id="senha" name="senha"><br><br>
+        <input type="submit" value="Fazer login">
+      </form> 
+  </body>
+</html>
