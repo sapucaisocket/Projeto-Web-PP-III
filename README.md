@@ -14,6 +14,11 @@
 <p align="left">⚡ Trello: https://trello.com/b/E9RDKHap/sapuca%C3%ADs-project-web</p>
 <p align="left">📝 Planejamento das telas: https://www.figma.com/file/NH4tDjcj27sxHNojMFFhhF/Cin%C3%A9?t=zo4GY85MBwohJJbV-1</p>
 
+<h2 align="center">Figmas do Projeto>/h2>
+
+- ✏️ Home-Page: 
+
+  ![image](https://user-images.githubusercontent.com/102832927/225708462-434b28e4-ecea-460a-812e-58de72aa9e99.png)
 
 
 <h3 align="center">Linguages que utilizaremos:</h3>
