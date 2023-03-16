@@ -1,9 +1,3 @@
-<style>
-img {
-  float:left;
-  }
-
-</style>
 <h1 align="center">Ciné - Website Movie Review</h1>
 <h3 align="center">Projeto dedicado para a construção de um site de reviews de filme, com a principal finalidade de avaliar filmes e séries que estão circulando a internet. Esse projeto consiste em estabelecermos uma verdadeira experiência de mercado, trabalhando em conjunto e desenvolvendo o projeto como uma verdadeira equipe.</h3>
 
