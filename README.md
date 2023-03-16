@@ -18,7 +18,7 @@
 
 - ✏️ Home Page: 
 
-![image](https://user-images.githubusercontent.com/102832927/225708462-434b28e4-ecea-460a-812e-58de72aa9e99.png)
+<style= float: "left">![image](https://user-images.githubusercontent.com/102832927/225708462-434b28e4-ecea-460a-812e-58de72aa9e99.png)</style>
 
 - ✏️ Login: 
 
