@@ -1,5 +1,11 @@
-<h1 align="center">Ciné - Website Movie Review</h1>
-<h3 align="center">Projeto dedicado para a construção de um site de reviews de filme, com a principal finalidade de avaliar filmes e séries que estão circulando a internet. Esse projeto consiste em estabelecermos uma verdadeira experiência de mercado, trabalhando em conjunto e desenvolvendo o projeto como uma verdadeira equipe.</h3>
+![header](https://user-images.githubusercontent.com/91897674/228363467-10983bce-ca02-486c-9f39-9c2b8b4e8a68.png)
+
+
+> Status: Em desenvolvimento  ⚠️
+## ❗ Sobre o projeto
+  Projeto dedicado para a construção de um site de reviews de filme, com a principal finalidade de avaliar filmes e séries que estão circulando a internet. Esse projeto, elaborado a partir de um grupo de estudantes do curso de informática na disciplica de Práticas Profissionais III no Instituto Federal do Ceará (IFCE), consiste em estabelecermos uma experiência de mercado, trabalhando em conjunto e desenvolvendo o projeto como uma verdadeira equipe. Para podermos  entrar a fundo na realidade do mercado, foi realizado uma série de estudos, sprints e gerenciamento de reuniões nos principais meios de comunicações que o atual mercado exige, elaborando a melhor estratégia possível para o desenvolvimento do projeto.
+  
+  ## 🔎 Equipe: 
 
 - 👨‍💻 Integrante 1 [Válcler Manoel Vieira Camelo Maia](https://github.com/Valcler-Manoel)
 
@@ -11,24 +17,11 @@
 <br>
 </p>
 
-<p align="left">⚡ Trello: https://trello.com/b/E9RDKHap/sapuca%C3%ADs-project-web</p>
-<p align="left">📝 Planejamento das telas: https://www.figma.com/file/NH4tDjcj27sxHNojMFFhhF/Cin%C3%A9?t=zo4GY85MBwohJJbV-1</p>
-
-<h2 align="center">Figmas do Projeto</h2>
-
-- ✏️ Home Page: 
-
-![image](https://user-images.githubusercontent.com/102832927/225708462-434b28e4-ecea-460a-812e-58de72aa9e99.png)
-
-- ✏️ Login: 
-
-![image](https://user-images.githubusercontent.com/102832927/225709139-884deaab-c410-478f-a37a-1d0d428326b3.png)
-
-- ✏️ User-Profile Page:
-
-![image](https://user-images.githubusercontent.com/102832927/225709534-7efa914c-414e-49cb-9f33-6d98872559a6.png)
-
+## 🛠️ Área de Desenvolvimento
+- Clique [aqui](https://www.figma.com/file/NH4tDjcj27sxHNojMFFhhF/Cin%C3%A9?t=zo4GY85MBwohJJbV-1) para acessar ![Figma](https://img.shields.io/badge/-Figma-2E333D?style=flat&logo=figma)
+- Clique [aqui](https://www.figma.com/file/NH4tDjcj27sxHNojMFFhhF/Cin%C3%A9?t=zo4GY85MBwohJJbV-1) para acessar ![Trello](https://img.shields.io/badge/-Trello-2E333D?style=flat&logo=trello)
 
 
 <h3 align="center">Linguages que utilizaremos:</h3>
 <p align="center"> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> </p>
+
