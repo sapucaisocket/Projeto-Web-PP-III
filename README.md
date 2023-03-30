@@ -19,7 +19,7 @@
 
 ## 🛠️ Área de Desenvolvimento
 - Clique [aqui](https://www.figma.com/file/NH4tDjcj27sxHNojMFFhhF/Cin%C3%A9?t=zo4GY85MBwohJJbV-1) para acessar ![Figma](https://img.shields.io/badge/-Figma-2E333D?style=flat&logo=figma)
-- Clique [aqui](https://www.figma.com/file/NH4tDjcj27sxHNojMFFhhF/Cin%C3%A9?t=zo4GY85MBwohJJbV-1) para acessar ![Trello](https://img.shields.io/badge/-Trello-2E333D?style=flat&logo=trello)
+- Clique [aqui](https://trello.com/b/E9RDKHap/sapuca%C3%ADs-project-web) para acessar ![Trello](https://img.shields.io/badge/-Trello-2E333D?style=flat&logo=trello)
 
 <br>
 
