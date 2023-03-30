@@ -5,6 +5,8 @@ var loginRouter = require('./routes/login');
 const app = express();
 const admin = require("./routes/admin")
 
+var fazLoginRouter = require('./routes/fazLogin'); // fazLogin module
+
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
@@ -15,6 +17,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 //Rotas:
 app.use('/', admin)
 app.use('/login', loginRouter);
+app.use('/fazLogin', fazLoginRouter); // fazLogin handler
 
 //Porta do local host do projeto
 app.listen(8081, function() {
