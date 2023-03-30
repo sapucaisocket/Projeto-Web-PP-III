@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    background: #0d0d0d;
+    padding: 10px;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+ul li a {
+    background: #557373;
+    border-radius: 5px;
+}
+
+ul li a, img {
+    display: inline-block;
+    padding: 20px 30px;
+    color: #f2efea;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    vertical-align: middle; /* alinha os elementos verticalmente */
+}
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #323231;
+  display: none;
+  z-index: 999;
+  padding: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+ul li ul.dropdown a {
+  background-color: #323231;
+}
+ul li ul.dropdown a:hover {
+    background-color: #60605f;
+  }
+
+ul li a:hover{
+    background: #0d0d0d;
+}
+ul li:hover ul.dropdown{
+    display: block;
+    width: auto;
+}
+
+/*barra de busca */
+.box {
+    width: 800px;
+    height: auto;
+    background-color: rgb(215, 215, 215);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-self: start;
+    padding: 20px 20px 20px;
+    float: right;
+    margin-left: 20px;
+}
+
+
+.box > i {
+    font-size: 20px;
+    color: #777;
+}
+
+.box > input {
+    flex: 1;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: rgb(215, 215, 215);
+}
+
+/*footer*/
+.container {
+    max-width: 1170px;
+    background-color: #1c1c1c;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer {
+    background-color: #1c1c1c;
+    padding: 70px 0px;
+}
+
+.footer-col {
+    width: 14.28%;
+    padding: 0 15px;
+}
+.footer-col a{ 
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: white;
+}
+.copy {
+    color:#777
+}
+

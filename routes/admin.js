@@ -3,10 +3,9 @@ const path = require("path");
 const router = express.Router();
 
 // menu
-router.get('/', (req, res) => {
-    const filePath = path.join(__dirname, "../src", "menu.html");
-    res.sendFile(filePath);
-});
+router.get('/', function(req, res, next) {
+    res.render("homepage")
+  })
 
 module.exports = router;
 

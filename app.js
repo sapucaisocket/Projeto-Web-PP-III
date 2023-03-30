@@ -2,6 +2,8 @@ var express = require("express");
 var path = require('path');
 global.authTokens = {};
 var loginRouter = require('./routes/login');
+var homepageRouter = require('./routes/admin');
+
 const app = express();
 const admin = require("./routes/admin")
 
@@ -13,7 +15,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 //Rotas:
-app.use('/', admin)
+app.use('/', homepageRouter)
 app.use('/login', loginRouter);
 
 //Porta do local host do projeto
