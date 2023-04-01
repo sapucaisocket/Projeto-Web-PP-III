@@ -1,5 +1,4 @@
-![header](https://user-images.githubusercontent.com/91897674/228363467-10983bce-ca02-486c-9f39-9c2b8b4e8a68.png)
-
+![header](https://user-images.githubusercontent.com/102832927/229260001-e15bac17-c8d3-4d5f-90b9-d3aa29d302e9.png)
 
 > Status: Em desenvolvimento  ⚠️
 ## ❗ Sobre o projeto
