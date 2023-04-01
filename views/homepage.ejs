@@ -11,31 +11,52 @@
 
 </head>
 <body>
-    <ul>
-        <li><img src="images/cine.png" alt=""></li>
-        <li>
-            <a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
-            <ul class="dropdown">
-                <li><a href="#"><i class="fa fa-film" aria-hidden="true"></i> Filmes</a></li>
-                <li><a href="#"><i class="fa fa-pencil" aria-hidden="true"></i> Reviews</a></li>
-                <li><a href="#"><i class="fa fa-eye" aria-hidden="true"></i> Para ver</a></li>
-                <li><a href="login"><i class="fa fa-user" aria-hidden="true"></i> Perfil</a></li>
+    <div class="header">
+        <ul class="header-list">
+            <li><img src="images/cine.png" alt=""></li>
+            <li>
+                <a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+                <ul class="dropdown">
+                    <li><a href="#"><i class="fa fa-film" aria-hidden="true"></i> Filmes</a></li>
+                    <li><a href="#"><i class="fa fa-pencil" aria-hidden="true"></i> Reviews</a></li>
+                    <li><a href="#"><i class="fa fa-eye" aria-hidden="true"></i> Para ver</a></li>
+                    <li><a href="login"><i class="fa fa-user" aria-hidden="true"></i> Perfil</a></li>
+                </ul>
+                <div class="box">
+                    
+                    <input type="text" name="fff" placeholder="Busque filmes, séries, reviews ou pessoas...">
+                </div>
+                
+            </li>
+        </ul>
+    </div>
+    
+
+    <section aria-label="Notícias">
+        <div class="carousel">
+            <button class="carousel-button-prev">
+                <img src="images/arrow.png">
+            </button>
+            <button class="carousel-button-next">
+                <img src="images/arrow.png">
+            </button>
+            <ul>
+                <li class="slide" data-active>
+                    <img src="images/batmanNotícia.jpg" alt="Nature Image #1">
+                </li>
+                <li class="slide">
+                    <img src="images/screamNotícia.jpg" alt="Nature Image #2">
+                </li>
             </ul>
-
-            <div class="box">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" name="fff">
-            </div>
-        </li>
-    </ul>
-
-    <h2>ÁREA EM CONSTRUÇÃO EM CONSTRUÇÃO</h2>
-    <h2>Aqui será feita a integração ao tmdb</h2>
+        </div>
+    </section>
 
 
     <footer class="footer">
         <div class="container">
             <div class="row">
+
+               
                 <div class="footer-col">
                     <a href="#">Sobre</a>
                 </div>
@@ -54,13 +75,19 @@
                 <div class="footer-col">
                     <a href="#">Contato</a>
                 </div>
+
+          
                 <div class="footer-col">
                     <div class="social-links ">
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                        <a href="#"><i class="fab fa-tiktok"></i></a>
-
+                        <li>
+                             <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="https://github.com/sapucaisocket"><i class="fab fa-github"></i></a>
+                            <li>
+                                <h5>Desenvolvido por:</h5>
+                                <img src="images/SAPUCAÍ_BBack.png" alt="" href="">
+                            </li>
+                        </li>
+                       
                     </div>
                 </div>
             </div>
