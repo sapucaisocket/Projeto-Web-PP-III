@@ -10,9 +10,9 @@ admin.initializeApp({
     databaseURL: "https://login-study-975a8-default-rtdb.firebaseio.com"
 });
 
-const db = admin.firestore();
+const db = admin.firestore(); // Referência do DB
 
-let usersRef = db.collection("Users");
+let usersRef = db.collection("Users"); // Referência da coleção de usuários
 
 const emails = [];
 const senhas = [];
