@@ -10,9 +10,9 @@ admin.initializeApp({
 const db = admin.firestore();
 
 const data = {
-    id: "nicolas@admin.com",
-    email: "nicolas@admin.com",
-    senha: "nicolas"
+    id: "pedro@admin.com",
+    email: "pedro@admin.com",
+    senha: "pedro"
 }
 
 db.collection("Users").doc(data.id).set({

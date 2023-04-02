@@ -21,7 +21,7 @@ usersRef.get().then((querySnapshot) => {
     console.log(emails);
     if (emails.includes("admin@admin.com")) {
         console.log("user existe")
-
+        
     } else {
         console.log("user nao existe");
     }
