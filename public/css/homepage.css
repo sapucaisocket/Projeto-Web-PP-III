@@ -2,7 +2,10 @@
 body {
     line-height: 1.5;
     font-family: 'Poppins', sans-serif;
-    background-color: #0d0d0d;
+    height: 100vh;
+    justify-self: center;
+    align-items: center; 
+    background-color: black;
 }
 
 *{
@@ -18,11 +21,15 @@ body {
 .header-list{
     text-align:center;
 }
+.cine-logo {
+    float: left;
+}
 
-ul {
+ul, .usuario-nao-cadastrado {
     list-style: none;
     background: #0d0d0d;
     padding: 10px;
+      
 }
 
 ul li {
@@ -32,9 +39,12 @@ ul li {
 ul li a {
     background: #557373;
     border-radius: 7px;
+    display: inline-block;
+    padding: 0 10px;
+    --largura-dropdown: auto;
 }
 
-ul li a, img {
+ul li a, .header .header-list img  {
     display: inline-block;
     padding: 10px 20px;
     color: #f2efea;
@@ -51,16 +61,18 @@ ul li ul.dropdown {
   position: absolute;
   top: 100%;
   left: 0;
-  width: 100%;
-  background-color: #323231;
+  background-color: #202020;
   display: none;
   z-index: 999;
-  padding: 5px;
+  padding: 0px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 7px;
+  
 }
 ul li ul.dropdown a {
-  background-color: #323231;
+  background-color: #202020;
+  border: 3px solid black;
+  width: 100%;
 }
 ul li ul.dropdown a:hover {
     background-color: #60605f;
@@ -75,10 +87,13 @@ ul li:hover ul.dropdown{
 }
 
 /*barra de busca */
+.box .barra-de-busca {
+    background-color: white;
+}
 .box {
     width: 800px;
     height: auto;
-    background-color: rgb(215, 215, 215);
+    background-color: white;
     border-radius: 7px;
     display: flex;
     align-items: center;
@@ -102,10 +117,14 @@ ul li:hover ul.dropdown{
     border: none;
     outline: none;
     font-size: 18px;
-    background-color: rgb(215, 215, 215);
+    background-color:white;
 }
 
-
+.usuario-nao-cadastrado {
+    float: right;
+    border-radius: 50%;
+    width: 89px;
+}
 
 /*footer*/
 .container {
@@ -120,6 +139,7 @@ ul li:hover ul.dropdown{
 .footer {
     background-color: #1c1c1c;
     padding: 70px 0px;
+    clear: both;
 }
 
 .footer-col {
@@ -171,58 +191,133 @@ ul li:hover ul.dropdown{
 }
 
 /*Carousel*/
-.carousel {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-}
-
-.carousel > ul{
+.section {
     margin: 0;
     padding: 0;
-    list-style: none;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .slide {
-    position: absolute;
-    inset: 0;
-    opacity: 0;
+    width: 500%;
+    height: 500px;
+    display: flex;
 }
 
-.slide > img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
+.slide input {
+    display: none;
 }
 
-.slide[data-active] {
-    position: absolute;
-    inset: 0;
-    opacity: 1;
+.st {
+    width: 20%;
+    transition: 2s;
 }
 
-.carousel-button{
+.st img {
+    width: 800px;
+    height: 500px;
+}
+
+.nav-m {
     position: absolute;
-    z-index: 2;
-    background: none;
-    border: none;
-    font-size: 4rem;
-    top: 50%;
-    transform: translateY(-50%);
+    width: 800px;
+    margin-top: -40px;
+    justify-content: center;
+    display: flex;
+}
+
+.m-btn {
+    border: 2px solid #23e3c2;
+    padding: 5px;
+    border-radius: 10px;
     cursor: pointer;
-    padding: 0.5rem;
+    transition: 1s;
 }
 
-.carousel-button:hover,.carousel-button:focus{
-    color: #f2efea;
+.m-btn:not(:last-child){
+    margin-right: 30px;
 }
 
-.carousel-button-prev{
-    transform: rotate(-180deg);
-    left: 1rem;
+.m-btn:hover {
+    background-color: #23e3c2;
 }
-.carousel-button-next{
-right: 1rem;
+
+#radio1:checked ~.first {
+    margin-left: 0;
+}
+#radio2:checked ~.first {
+    margin-left: -20%;
+}
+#radio3:checked ~.first {
+    margin-left: -40%;
+}
+#radio4:checked ~.first {
+    margin-left: -60%;
+}
+
+.nav-auto {
+    position: absolute;
+    width: 800px;
+    margin-top: 460px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-auto div {
+    border: 2px solid #23e3c2;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.nav-auto div:not(:last-child){
+    margin-right: 30px;
+    justify-content: center;
+}
+
+#radio1:checked ~ .nav-auto .a-b1 {
+    background-color: #23e3c2;
+}
+#radio2:checked ~ .nav-auto .a-b2 {
+    background-color: #23e3c2;
+}
+#radio3:checked ~ .nav-auto .a-b3 {
+    background-color: #23e3c2;
+}
+#radio4:checked ~ .nav-auto .a-b4 {
+    background-color: #23e3c2;
+}
+
+/*lista filmes*/
+div.list {
+    margin-top: 10px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+div.item {
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    border: 2px solid cornflowerblue;
+    border-radius: 5px;
+    margin: 5px;  
+}
+
+div.item:hover {
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+div.item img {
+    width: 100%;
 }
