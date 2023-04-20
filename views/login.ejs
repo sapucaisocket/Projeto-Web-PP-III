@@ -22,13 +22,13 @@
     <div class="login_body">
         <div class="login_box">
             <h2>Entrar</h2>
-            <form>
+            <form method="post" action="/fazLogin">
                 <div class="input_box">
-                    <input required type="email" placeholder="Email">
+                    <input required type="email" id="usuario" name="usuario" placeholder="E-mail">
                 </div>
 
                 <div class="input_box">
-                    <input required type="password" placeholder="Senha">
+                    <input required type="password" id="senha" name="senha" placeholder="Senha">
                 </div>
 
                 <div>
@@ -53,7 +53,7 @@
             <div class="login_footer">
                 
                 <div class="sign_up">
-                    <p>Novo por aqui? <a href="#">Assine agora.</a></p>
+                    <p>Novo por aqui? <a href="/registro">Assine agora.</a></p>
                 </div>
 
             </div>
